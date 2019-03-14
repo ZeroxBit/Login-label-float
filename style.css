@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
+  background-image: url("img/fondo.jpg");
 }
 .box-login {
   background: #0f2027; /* fallback for old browsers */
@@ -62,18 +63,13 @@ body {
   top: 0;
   pointer-events: none;
   transition: 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  left: 4.2em;
 }
 .box-login .inputBox input:focus ~ label,
 .box-login .inputBox input:valid ~ label {
   top: -20px;
   color: #4b92b1;
   font-size: 13px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .box-img {
   text-align: center;
